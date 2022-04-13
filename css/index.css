@@ -28,12 +28,12 @@ html {
     clear: both
 }
 
-.chatbox > .line {
+.chatbox>.line {
     display: none
 }
 
 #startrack {
-    height: 100%;
+    height: 99%;
     width: 100%
 }
 
@@ -65,12 +65,10 @@ html {
         transform: rotate(0deg);
         border-radius: 0
     }
-
     50% {
         transform: rotate(180deg);
         border-radius: 0
     }
-
     to {
         transform: rotate(1turn);
         border-radius: 0
@@ -82,12 +80,10 @@ html {
         transform: rotate(0deg);
         border-radius: 0
     }
-
     50% {
         transform: rotate(180deg);
         border-radius: 0
     }
-
     to {
         transform: rotate(1turn);
         border-radius: 0
@@ -99,12 +95,10 @@ html {
         transform: rotate(0deg);
         border-radius: 0
     }
-
     50% {
         transform: rotate(180deg);
         border-radius: 0
     }
-
     to {
         transform: rotate(1turn);
         border-radius: 0
@@ -116,12 +110,10 @@ html {
         transform: rotate(0deg);
         border-radius: 0
     }
-
     50% {
         transform: rotate(180deg);
         border-radius: 0
     }
-
     to {
         transform: rotate(1turn);
         border-radius: 0
@@ -170,7 +162,7 @@ nav a:hover {
 
 .ch {
     width: 100%;
-    padding-top: 6%;
+    padding-top: 3%;
     animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
     -webkit-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
     -ms-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
@@ -202,7 +194,6 @@ nav a:hover {
         opacity: 0;
         transform: translateY(-50px)
     }
-
     to {
         opacity: 1;
         transform: translateY(0)
@@ -214,7 +205,6 @@ nav a:hover {
         opacity: 0;
         transform: translateY(-50px)
     }
-
     to {
         opacity: 1;
         transform: translateY(0)
@@ -226,7 +216,6 @@ nav a:hover {
         opacity: 0;
         transform: translateY(-50px)
     }
-
     to {
         opacity: 1;
         transform: translateY(0)
@@ -238,7 +227,6 @@ nav a:hover {
         opacity: 0;
         transform: translateY(-50px)
     }
-
     to {
         opacity: 1;
         transform: translateY(0)
@@ -636,11 +624,9 @@ ul.skill li .progress div {
     0% {
         opacity: .8
     }
-
     50% {
         opacity: .25
     }
-
     to {
         opacity: 1
     }
@@ -650,19 +636,15 @@ ul.skill li .progress div {
     0% {
         transform: translateX(0)
     }
-
     25% {
         transform: translateX(-2px)
     }
-
     50% {
         transform: translateX(0)
     }
-
     75% {
         transform: translateX(2px)
     }
-
     to {
         transform: translateX(0)
     }
@@ -672,11 +654,9 @@ ul.skill li .progress div {
     0% {
         transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(0)
     }
-
     16% {
         transform: perspective(1600px) rotateX(10deg) rotateY(5deg) translateZ(32px)
     }
-
     to {
         transform: perspective(1600px) rotateX(0) rotateY(0) translateZ(65px)
     }
@@ -684,26 +664,22 @@ ul.skill li .progress div {
 
 @media screen and (min-width: 1400px) {
     .container {
-        width: 70%
+        width: 75%
     }
-
     nav a {
         font-size: 18px
     }
 }
 
 @media screen and (max-width: 700px) {
-
     body,
     html {
         min-width: 0
     }
-
     .container {
         width: auto;
         margin: 0 5%
     }
-
     div.el span {
         display: block;
         width: 60%;
@@ -711,7 +687,6 @@ ul.skill li .progress div {
         top: 75px;
         margin: -40% auto 0
     }
-
     nav {
         padding: 15px 5%;
         overflow: auto;
@@ -726,68 +701,55 @@ ul.skill li .progress div {
         background: -webkit-linear-gradient(180deg, transparent, rgba(0, 0, 0, .8));
         background: linear-gradient(180deg, transparent, rgba(0, 0, 0, .8))
     }
-
     .ch {
         padding: 40px 0
     }
-
     .hello {
         width: 90%;
         padding: 5%;
         text-align: center;
         bottom: 50%
     }
-
     .hello .circle {
         float: none;
         margin-right: 0
     }
-
     .hello h2 {
         padding-top: 0
     }
-
     .hello h1,
     .hello h2 {
         font-weight: 400;
         font-size: 14px
     }
-
     .hello .circle {
         padding: 20px
     }
-
     .hello .circle span {
         margin: 0 5px;
         width: 10px;
         height: 10px
     }
-
     .hello h1 {
         font-size: 26px
     }
-
     .about .introduct img.avatar {
         float: none;
         margin-left: 0;
         margin-right: 0;
         width: 100px
     }
-
     .about .introduct,
     .about .skill {
         float: none;
         width: auto
     }
-
     .about .skill {
         padding-top: 40px
     }
-
     .about ul.skill li {
         width: 100%
     }
-
     .find .links .item,
     .gate .links .item {
         width: 46%;
@@ -795,47 +757,40 @@ ul.skill li .progress div {
         padding: 5px 0;
         margin: 10px 2%
     }
-
     .find .links .item {
         height: 60px;
         line-height: 60px;
         font-size: 13px
     }
-
     .gate .links .item .avatar {
         height: 40px;
         line-height: 40px;
         width: 40px
     }
-
     .gate .links .item .avatar img {
         height: 40px;
         max-width: 40px
     }
-
     .gate .links .item .inner {
         padding: 0
     }
-
     .gate .links .item .inner h5 {
         font-size: 15px
     }
-
     .gate .links .item .inner h5,
     .gate .links .item .inner p {
         white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden
     }
-
     .footer {
         padding-bottom: 100px
     }
-
     .footer h3,
     .footer p {
         letter-spacing: .2em
     }
 }
+
 
 /*# sourceMappingURL=/index.css.map */
