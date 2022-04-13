@@ -238,7 +238,7 @@ nav a:hover {
     width: 1000px;
     margin: 0 auto;
     height: 100%;
-    padding: 20px 0
+    padding: 27px 0
 }
 
 .intro {
@@ -548,13 +548,13 @@ ul.skill li .progress div {
 }
 
 .footer p {
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 1em;
     opacity: .3
 }
 
 .footer p.c {
-    margin-top: 6px;
+    margin-top: 5px;
     letter-spacing: .1em
 }
 
@@ -790,6 +790,11 @@ ul.skill li .progress div {
     .footer p {
         letter-spacing: .2em
     }
+}
+
+a>img {
+    height: 30px;
+    vertical-align: middle;
 }
 
 
