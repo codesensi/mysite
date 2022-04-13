@@ -162,7 +162,7 @@ nav a:hover {
 
 .ch {
     width: 100%;
-    padding-top: 3%;
+    padding-top: 4%;
     animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
     -webkit-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
     -ms-animation: fadedown 1s cubic-bezier(.19, 1, .22, 1);
@@ -548,13 +548,13 @@ ul.skill li .progress div {
 }
 
 .footer p {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1em;
     opacity: .3
 }
 
 .footer p.c {
-    margin-top: 20px;
+    margin-top: 6px;
     letter-spacing: .1em
 }
 
